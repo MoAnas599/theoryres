@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header{
+    width: 100%;
+    height: 500px;
+    background-image: url(/img/dd.jpg);
+    background-size: cover;
+    color: #fff;
+    border-top: 10px solid #5385c1;
+}
+.nav{
+    width: 80%;
+    margin: 0 auto;
+   position: relative;
+   top: 60px;
+    
+}
+.nav h6{
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav ul{
+    float: right;
+    list-style: none;
+}
+.nav li{
+    float: left;
+    margin-left: 10px;
+}
+.benner{
+    width: 40%;
+    margin: 0 auto;
+   margin-top: 60px;
+   text-align: center;
+}
+.benner h1{
+        font-weight: lighter;
+        font-size: 60px;
+}
+.benner p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.uppar-mid{
+    width: 80%;
+    margin: 0 auto;
+   padding: 30px 0;
+}
+.first-up{
+    width: 25%;
+    float: left;
+    margin-left: 75px;
+    margin-top: 40px;
+}
+.first-up h3{
+    color: #5385c1;
+    font-weight: 300;
+    font-size: 20px;
+}
+.first-up p{
+    color: gray;
+}
+.second{
+   border-left: 1px solid gray;
+   border-right: 1px solid gray;
+   padding:0 50px;
+}
+.button{
+    background-color: #5385c1;
+    color: white;
+    width: 90px;
+    padding: 15px;
+    border:none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.third-sec{
+    width: 100%;
+    background-color: #5385c1;
+    padding-top: 10px;
+}
+.third-sec h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.third-sec p{
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+}
+.big-box{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.box-img{
+    width: 18%;
+    float: left;
+    margin-left: 80px;
+    margin-top: 40px;
+    color:white;
+    text-align: center;
+    padding: 35px 0;
+    border: 1px solid #ffffff4a;
+
+}
+.box-img img{
+    width: 40%;
+    border-radius: 100%;
+}
+.box-img h4{
+    font-size: 20px;
+    font-weight: lighter;
+    color:white;
+
+}
+.box-img p {
+    font-size: 14px;
+    color: #ffffffbd;
+    
+}
+.fourth-sec{
+    
+}
+.fourth-sec h1{
+    font-weight: lighter;
+    color: #5385c1;
+    font-size: 40px; ;text-align: center;
+}
+.fourth-sec p{
+    color:gray; text-align: center;
+}
+.second-bigbox{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+ .second-bigbox img {
+    width: 95%;
+}
+ .box-4{
+    width: 45%;
+    float: left;
+    margin-left: 70px;
+}
+.box-4 h1 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+.box-4 p{
+    text-align: left;
+}
+.box-5{
+    width: 45%;
+    float: right;
+    margin-left: 10px;
+}
+.box-5 h1{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.box-5 p{
+    text-align: left;
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    border-top:1px solid #8080806e ;
+    padding-top: 20px;
+}
+.footer p{
+    color:#8080806e;
+    font-size: 14px;
+    float:left;
+    margin-left: 70px;
+}
+.footer i{
+    float:right;
+    margin-right: 25px;
+    color: #5385c1;
+}
+@media screen and (max-width:800px) {
+ .benner h1{
+    font-size: 30px;
+ }
+ .first-up{
+    width: 100%;
+    clear: both;
+    padding: 0px;
+ }
+ .second{
+    border: none;
+    clear:both;
+    padding:0px;
+    
+ }
+ 
+ .box-img{
+    width: 50%;
+    
+ }
+ .box-4{
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    margin-left: 0px;
+ }
+ .box-5{
+    width: 100%;
+    clear: both;
+ }
+ .footer p{
+    width: 80%;
+    clear: both;
+ }
+ .icon {
+    clear:both;
+    margin: 0 auto;
+ }
+}
